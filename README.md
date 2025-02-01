@@ -3,8 +3,8 @@
 ## 1. Création d'une classe Point
 ### Diagramme de la classe `Point`
 
-*DIAGRAMME A FAIRE*
-
+<br>
+<img src="img/Diagramme_classe_point.png" alt="diagramme" width="200" />
 Fichier `point.h` :
 ```c
 #include <iostream>
@@ -124,7 +124,7 @@ int main() {
 
 Résultat dans le terminal :
 <br>
-<img src="image.png" alt="drawing" width="200" />
+<img src="img/test_classe_point.png" alt="image" width="200" />
 ```text
 p0 : constructeur par défaut
 Coordonnées : (0,0)
