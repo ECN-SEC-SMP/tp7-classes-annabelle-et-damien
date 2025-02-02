@@ -23,3 +23,5 @@ class Cercle : public Forme {
         // Opérateurs
         friend ostream& operator<<(ostream& os, const Cercle &c);
 };
+
+ostream& operator<<(ostream& os, const Cercle &c);

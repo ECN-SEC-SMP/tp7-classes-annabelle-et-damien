@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-    /* PARTIES 1 & 2 
+    /* PARTIES 1 & 2
     // Test du constructeur sans parametres
     cout << "p0 : constructeur par défaut" << endl;
     Point p0;
@@ -26,7 +26,7 @@ int main() {
     p1.translater(-2, 3);
     p1.affiche();
     cout << "test des accesseurs : ";
-    cout << "(" << p1.getX() << "," << p1.getY() << ")" << endl;
+    cout << p1.getX() << "," << p1.getY() << endl;
 
     cout << endl;
 
@@ -54,7 +54,7 @@ int main() {
     cout << "p3 += p2 : " << p3 << endl;
     */
 
-    /* PARTIE 3
+    /* PARTIE 3 
     Forme f0;
     cout << "f0 : " << f0 << endl;
 

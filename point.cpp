@@ -1,7 +1,7 @@
 #include <iostream>
 #include "point.h"
 
-// Constructeurs
+/* ---------- Constructeurs ---------- */
 Point::Point() {
 	this->x = 0;
 	this->y = 0;
@@ -18,7 +18,7 @@ Point::Point(Point& p) {
 }
 
 
-// Mutateurs
+/* ---------- Mutateurs ---------- */
 void Point::setX(int x) {
 	this->x = x;
 }
@@ -27,7 +27,7 @@ void Point::setY(int y) {
 	this->y = y;
 }
 
-// Méthodes
+/* ---------- Méthodes ---------- */
 void Point::translater(int varX, int varY) {
     this->x += varX;
     this->y += varY;
@@ -43,7 +43,7 @@ void Point::affiche() {
 }
 
 
-// Opérateurs
+/* ---------- Opérateurs ---------- */
 ostream& operator<<(ostream& os, const Point &p) {
     os << "(" << p.x << "," << p.y << ")";
     return os;

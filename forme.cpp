@@ -14,9 +14,6 @@ Forme::Forme(const Point &p) {
     this->centre = p;
 }
 
-// Méthodes
-
-
 // Opérateurs
 void Forme::operator+=(const Forme &f) {
     this->centre += f.centre;
