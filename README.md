@@ -27,7 +27,7 @@
 ## 1. Création d'une classe Point
 ### Diagramme de la classe `Point`
 
-<img src="img/Diagramme_classe_point.png" alt="diagramme" width="200" />
+<img src="img/Diagramme_classe_point.jpg" alt="diagramme" width="200" />
 
 ### Fichier `point.h` :
 
