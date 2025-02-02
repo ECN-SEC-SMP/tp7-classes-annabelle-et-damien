@@ -5,6 +5,7 @@
 
 <br>
 <img src="img/Diagramme_classe_point.png" alt="diagramme" width="200" />
+
 Fichier `point.h` :
 ```c
 #include <iostream>

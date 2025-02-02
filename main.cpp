@@ -1,6 +1,7 @@
 #include <iostream>
 #include "point.h"
 #include "forme.h"
+#include "cercle.h"
 
 using namespace std;
 
@@ -53,11 +54,42 @@ int main() {
     cout << "p3 += p2 : " << p3 << endl;
     */
 
-    /* PARTIE 3 */
+    /* PARTIE 3
     Forme f0;
     cout << "f0 : " << f0 << endl;
 
-    Point p(10,3);
-    Forme f1(p);
+    Forme f1(24,6);
     cout << "f1 : " << f1 << endl;
+
+    Point p(10,3);
+    Forme f2(p);
+    cout << "f2 : " << f2 << endl;
+    
+    f2 += f1;
+    cout << "f2 += f1 : " << f2 << endl;
+    */
+
+    /* PARTIE 4 */
+    Cercle c0;
+    cout << "c0 : " << c0 << endl;
+
+    Cercle c1(5);
+    cout << "c1 : " << c1 << endl;
+
+    Cercle c2(24,6);
+    cout << "c2 : " << c2 << endl;
+
+    Cercle c3(7,2,14);
+    cout << "c3 : " << c3 << endl;
+
+    Point p4(10,3);
+    Cercle c4(p4);
+    cout << "c4 : " << c4 << endl;
+
+    Point p5(5,8);
+    Cercle c5(p5,4);
+    cout << "c5 : " << c5 << endl;
+
+    cout << "perimetre de c5 : " << c5.perimetre() << endl;
+    cout << "surface de c5 : " << c5.surface() << endl;
 }

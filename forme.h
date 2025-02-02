@@ -5,20 +5,21 @@
 using namespace std;
 
 class Forme {
-    private:
+    protected:
         Point centre;
 
     public:
         // Constructeurs
         Forme();
+        Forme(int x, int y);
         Forme(const Point &p);
 
         // Méthodes abstraites
-        // virtual int perimetre() const = 0;
-        // virtual int surface() const = 0;
+        virtual double perimetre() = 0;
+        virtual double surface() = 0;
 
         // Operateurs
-        void operator+=(const Point &p);
+        void operator+=(const Forme &f);
         friend ostream& operator<<(ostream& os, const Forme &f);
     
 };
